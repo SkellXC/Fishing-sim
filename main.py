@@ -15,7 +15,7 @@ When an item needs to have a level requirement but the class doesn't have one,
 just take the lazy way out and add it to the class and set the attributes on the rest
 to zero or 1
 """
-cd = False
+cd = True
 def mysleep(cd, sec):
      if cd:
       time.sleep(sec)
@@ -232,6 +232,8 @@ def cmdcheck(string):
     elif "net" in string or "cast" in string:
         findNet().catch(findNet().durability)
         inp()
+    elif "nocd" in string:
+         cd = False
     else:
         print("Error Unknown command")
         inp()
