@@ -6,3 +6,4 @@ A text based fishing game with some other features. Has a currency system, items
 To start type "help" or "tutorial"
 
 Admin commands are setlevel and getrich
+Type "nocd" to get rid of the cooldown between actions
